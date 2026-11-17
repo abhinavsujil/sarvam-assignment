@@ -1,0 +1,971 @@
+{
+  "services": [
+    {
+      "service_id": "income_tax_filing",
+      "name_en": "Income Tax Return (ITR) Filing",
+      "name_hi": "आयकर रिटर्न (ITR) फाइलिंग",
+      "category_en": "Tax & Financial Identity",
+      "category_hi": "कर एवं वित्तीय पहचान",
+      "description_en": "Filing annual Income Tax Return (ITR-1/ITR-2/ITR-4) for salaried, business, and self-employed individuals.",
+      "description_hi": "वेतनभोगियों, व्यापारियों और नागरिकों के लिए वार्षिक आयकर रिटर्न (ITR) दाखिल करने की ऑनलाइन सेवा।",
+      "aliases": [
+        "tax",
+        "tax filing",
+        "file tax",
+        "income tax",
+        "itr",
+        "itr filing",
+        "tax documents",
+        "income tax return",
+        "file itr",
+        "income tax file",
+        "tax file",
+        "tax file karna",
+        "टैक्स",
+        "टैक्स फाइल",
+        "टैक्स भरना",
+        "आयकर",
+        "आयकर रिटर्न",
+        "आईटीआर",
+        "आईटीआर फाइलिंग",
+        "इनकम टैक्स",
+        "टैक्स रिटर्न",
+        "टैक्स के दस्तावेज",
+        "टैक्स फाइल करने",
+        "टैक्स फाइल करना"
+      ],
+      "required_documents_en": [
+        "PAN Card and Aadhaar Card",
+        "Form 16 or Salary Slips (for salaried individuals)",
+        "Bank Account Statements of all active savings accounts",
+        "Investment & deduction proofs (80C, 80D, PPF, Insurance)"
+      ],
+      "required_documents_hi": [
+        "पैन कार्ड और आधार कार्ड",
+        "फॉर्म 16 या वेतन पर्ची (वेतनभोगी कर्मचारियों के लिए)",
+        "सभी बचत बैंक खातों का स्टेटमेंट",
+        "कर बचत निवेश प्रमाण पत्र (धारा 80सी, 80डी, बीमा रसीद)"
+      ],
+      "processing_time_days": 30,
+      "official_portal": "Income Tax e-Filing Portal (incometax.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "Official portal filing is free; assisted filing charges at the Akshaya kiosk depend on return type. Confirm at counter.",
+      "fee_note_hi": "सरकारी पोर्टल पर फाइलिंग निःशुल्क है; अक्षय केंद्र पर सहायता शुल्क रिटर्न के प्रकार पर निर्भर करता है। काउंटर पर पुष्टि करें।"
+    },
+    {
+      "service_id": "income_certificate",
+      "name_en": "Income Certificate",
+      "name_hi": "आय प्रमाण पत्र",
+      "category_en": "Revenue & Welfare",
+      "category_hi": "राजस्व एवं कल्याण",
+      "description_en": "Official state certificate verifying annual family income for welfare schemes, scholarships, and fee concessions.",
+      "description_hi": "कल्याणकारी योजनाओं, छात्रवृत्ति और शुल्क रियायतों के लिए वार्षिक पारिवारिक आय प्रमाणित करने वाला सरकारी प्रमाण पत्र।",
+      "aliases": [
+        "income certificate",
+        "income",
+        "income cert",
+        "salary certificate",
+        "revenue",
+        "आय प्रमाण पत्र",
+        "आय प्रमाण",
+        "आय",
+        "इनकम सर्टिफिकेट",
+        "इनकम सर्टिफ़िकेट",
+        "इनकम",
+        "in come certificate",
+        "in come",
+        "aking come certificate",
+        "come certificate",
+        "in-come"
+      ],
+      "required_documents_en": [
+        "Salary Certificate or Income Affidavit",
+        "Ration Card copy",
+        "Aadhaar Card",
+        "Land tax receipt (if agricultural income)"
+      ],
+      "required_documents_hi": [
+        "वेतन प्रमाण पत्र या आय शपथ पत्र",
+        "राशन कार्ड की प्रति",
+        "आधार कार्ड",
+        "भूमि कर रसीद (यदि कृषि आय हो)"
+      ],
+      "processing_time_days": 7,
+      "official_portal": "e-District Portal",
+      "fee_inr": null,
+      "fee_note_en": "Statutory application fees vary by state/district notification; confirm exact payable charges at the Akshaya counter.",
+      "fee_note_hi": "सरकारी आवेदन शुल्क राज्य और जिला अधिसूचना के अनुसार बदलता रहता है; कृपया सही शुल्क की पुष्टि अक्षय केंद्र काउंटर पर करें।"
+    },
+    {
+      "service_id": "caste_certificate",
+      "name_en": "Caste Certificate",
+      "name_hi": "जाति प्रमाण पत्र",
+      "category_en": "Revenue & Welfare",
+      "category_hi": "राजस्व एवं कल्याण",
+      "description_en": "Official document certifying an individual's caste or community for reservation benefits in education and employment.",
+      "description_hi": "शिक्षा और रोजगार में आरक्षण लाभ प्राप्त करने के लिए व्यक्ति की जाति या समुदाय को प्रमाणित करने वाला सरकारी दस्तावेज।",
+      "aliases": [
+        "caste certificate",
+        "caste",
+        "community certificate",
+        "reservation",
+        "जाति प्रमाण पत्र",
+        "जाति",
+        "कास्ट सर्टिफिकेट",
+        "कास्ट",
+        "जाति सर्टिफिकेट",
+        "कम्युनिटी सर्टिफिकेट"
+      ],
+      "required_documents_en": [
+        "School Leaving Certificate showing caste",
+        "Father or relative's verified caste certificate",
+        "Aadhaar Card",
+        "Ration Card"
+      ],
+      "required_documents_hi": [
+        "जाति दर्शाने वाला स्कूल छोड़ने का प्रमाण पत्र",
+        "पिता या रक्त संबंधी का प्रमाणित जाति प्रमाण पत्र",
+        "आधार कार्ड",
+        "राशन कार्ड"
+      ],
+      "processing_time_days": 5,
+      "official_portal": "e-District Portal",
+      "fee_inr": null,
+      "fee_note_en": "Government processing fees must be verified directly at the Akshaya desk; do not rely on unverified online estimates.",
+      "fee_note_hi": "सरकारी प्रसंस्करण शुल्क की पुष्टि सीधे अक्षय केंद्र पर की जानी चाहिए; किसी भी असत्यापित ऑनलाइन राशि पर भरोसा न करें।"
+    },
+    {
+      "service_id": "new_aadhaar_enrollment",
+      "name_en": "New Aadhaar Card Enrollment",
+      "name_hi": "नया आधार कार्ड नामांकन",
+      "category_en": "Identity Services",
+      "category_hi": "पहचान सेवाएं",
+      "description_en": "Fresh enrollment for Indian citizens to obtain a new 12-digit Aadhaar identity card.",
+      "description_hi": "भारतीय नागरिकों के लिए नया 12-अंकीय आधार पहचान पत्र प्राप्त करने हेतु नया नामांकन।",
+      "aliases": [
+        "new aadhaar",
+        "new aadhaar card",
+        "apply for aadhaar",
+        "get aadhaar",
+        "make aadhaar",
+        "aadhaar enrollment",
+        "aadhaar card lena",
+        "नया आधार",
+        "नया आधार कार्ड",
+        "आधार कार्ड बनवाना",
+        "आधार कार्ड लेना",
+        "आधार कार्ड चाहिए",
+        "आधार नामांकन",
+        "पहला आधार कार्ड",
+        "आधार लेना"
+      ],
+      "required_documents_en": [
+        "Proof of Identity (POI: Voter ID, Passport, or PAN Card)",
+        "Proof of Address (POA: Electricity Bill, Ration Card, or Bank Passbook)",
+        "Proof of Date of Birth (Birth Certificate or School Marksheet)"
+      ],
+      "required_documents_hi": [
+        "पहचान का प्रमाण (वोटर आईडी, पासपोर्ट, या पैन कार्ड)",
+        "पते का प्रमाण (बिजली बिल, राशन कार्ड, या बैंक पासबुक)",
+        "जन्म तिथि का प्रमाण (जन्म प्रमाण पत्र या स्कूल मार्कशीट)"
+      ],
+      "processing_time_days": 15,
+      "official_portal": "UIDAI Portal (myaadhaar.uidai.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "First-time Aadhaar enrollment is completely free of charge at all official centers.",
+      "fee_note_hi": "पहला आधार कार्ड नामांकन सभी आधिकारिक केंद्रों पर पूरी तरह से निःशुल्क (फ्री) है।"
+    },
+    {
+      "service_id": "aadhaar_mobile_update",
+      "name_en": "Aadhaar Mobile Number Update",
+      "name_hi": "आधार कार्ड मोबाइल नंबर अपडेट",
+      "category_en": "Identity Services",
+      "category_hi": "पहचान सेवाएं",
+      "description_en": "Linking or updating your primary mobile phone number on your Aadhaar record for OTP authentication.",
+      "description_hi": "ओटीपी प्रमाणीकरण के लिए अपने आधार रिकॉर्ड में प्राथमिक मोबाइल फोन नंबर जोड़ना या बदलना।",
+      "aliases": [
+        "aadhaar mobile update",
+        "aadhaar phone update",
+        "link mobile to aadhaar",
+        "mobile number update in aadhaar",
+        "aadhaar update mobile",
+        "aadhar mobile update",
+        "link mobile to aadhar",
+        "आधार कार्ड मोबाइल नंबर अपडेट",
+        "आधार मोबाइल अपडेट",
+        "आधार फोन अपडेट",
+        "मोबाइल नंबर आधार",
+        "फोन नंबर आधार",
+        "आधार में मोबाइल जोड़ना",
+        "आधार मोबाइल नंबर"
+      ],
+      "required_documents_en": [
+        "Original Physical Aadhaar Card",
+        "In-person Biometric verification (fingerprint or iris)",
+        "Active mobile phone to receive verification OTP"
+      ],
+      "required_documents_hi": [
+        "मूल आधार कार्ड",
+        "केंद्र पर व्यक्तिगत बायोमेट्रिक सत्यापन (फिंगरप्रिंट या आईरिस)",
+        "ओटीपी सत्यापन के लिए चालू मोबाइल नंबर"
+      ],
+      "processing_time_days": 3,
+      "official_portal": "UIDAI Portal (uidai.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "UIDAI prescribes standard biometric update charges; check the published rate list displayed at the authorized center.",
+      "fee_note_hi": "यूआईडीएआई निर्धारित मानक बायोमेट्रिक शुल्क लेता है; अधिकृत केंद्र पर प्रदर्शित आधिकारिक शुल्क सूची देखें।"
+    },
+    {
+      "service_id": "ration_card_member_addition",
+      "name_en": "Ration Card Member Addition",
+      "name_hi": "राशन कार्ड में सदस्य जोड़ना",
+      "category_en": "Civil Supplies & Food",
+      "category_hi": "नागरिक आपूर्ति एवं खाद्य",
+      "description_en": "Adding a newborn child, newly married spouse, or returning family member to an existing family Ration Card.",
+      "description_hi": "परिवार के मौजूदा राशन कार्ड में नवजात शिशु, नवविवाहित जीवनसाथी या नए सदस्य का नाम जोड़ना।",
+      "aliases": [
+        "ration card member addition",
+        "ration card add member",
+        "ration card",
+        "civil supplies",
+        "राशन कार्ड में सदस्य जोड़ना",
+        "राशन कार्ड",
+        "राशन",
+        "राशन कार्ड में नाम जोड़ना",
+        "राशन कार्ड नाम ऐड",
+        "राशन कार्ड सदस्य"
+      ],
+      "required_documents_en": [
+        "Birth Certificate (for child) or Marriage Certificate (for spouse)",
+        "Original Ration Card",
+        "Aadhaar Card of the member being added",
+        "Surrender or Deletion Certificate from previous card (if applicable)"
+      ],
+      "required_documents_hi": [
+        "जन्म प्रमाण पत्र (बच्चे के लिए) या विवाह प्रमाण पत्र (जीवनसाथी के लिए)",
+        "मूल राशन कार्ड",
+        "जोड़े जाने वाले सदस्य का आधार कार्ड",
+        "पिछले राशन कार्ड से नाम हटाने का प्रमाण पत्र (यदि लागू हो)"
+      ],
+      "processing_time_days": 15,
+      "official_portal": "Civil Supplies Portal",
+      "fee_inr": null,
+      "fee_note_en": "Departmental service charges are updated periodically; inquire with the Akshaya representative for the current circular.",
+      "fee_note_hi": "विभागीय सेवा शुल्क समय-समय पर संशोधित होते हैं; वर्तमान परिपत्र के लिए अक्षय प्रतिनिधि से संपर्क करें।"
+    },
+    {
+      "service_id": "driving_license_renewal",
+      "name_en": "Driving License Renewal",
+      "name_hi": "ड्राइविंग लाइसेंस नवीनीकरण",
+      "category_en": "Transport & Motor Vehicles",
+      "category_hi": "परिवहन एवं मोटर वाहन",
+      "description_en": "Renewing an expired or expiring non-transport or transport Driving License through the Parivahan portal.",
+      "description_hi": "परिवहन पोर्टल के माध्यम से समाप्त हो रहे या समाप्त हो चुके ड्राइविंग लाइसेंस का नवीनीकरण कराना।",
+      "aliases": [
+        "driving license renewal",
+        "driving license",
+        "renew license",
+        "dl renewal",
+        "sarathi",
+        "license",
+        "ड्राइविंग लाइसेंस नवीनीकरण",
+        "ड्राइविंग लाइसेंस",
+        "लाइसेंस",
+        "ड्राइविंग लाइसेंस रिन्यूअल",
+        "डीएल रिन्यूअल",
+        "लाइसेंस रिन्यू"
+      ],
+      "required_documents_en": [
+        "Original Expired Driving License",
+        "Form 1A Medical Fitness Certificate (mandatory if applicant is over 40 years)",
+        "Recent passport-size photographs",
+        "Aadhaar Card for identity and address verification"
+      ],
+      "required_documents_hi": [
+        "मूल पुराना ड्राइविंग लाइसेंस",
+        "प्रपत्र 1ए मेडिकल फिटनेस प्रमाण पत्र (यदि आवेदक की उम्र 40 वर्ष से अधिक है)",
+        "हालिया पासपोर्ट आकार का फोटो",
+        "पहचान और पते के सत्यापन के लिए आधार कार्ड"
+      ],
+      "processing_time_days": 10,
+      "official_portal": "Sarathi Parivahan Portal (parivahan.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "Statutory RTO renewal fees depend on expiration grace period and late fee brackets; payable as per official Sarathi schedule.",
+      "fee_note_hi": "आरटीओ नवीनीकरण शुल्क लाइसेंस समाप्ति अवधि और विलंब शुल्क स्लैब पर निर्भर करता है; आधिकारिक सारथी दर सूची के अनुसार देय है।"
+    },
+    {
+      "service_id": "death_certificate",
+      "name_en": "Death Certificate",
+      "name_hi": "मृत्यु प्रमाण पत्र",
+      "category_en": "Civil Registration & Vital Statistics",
+      "category_hi": "नागरिक पंजीकरण एवं जीवन सांख्यिकी",
+      "description_en": "Official government certificate recording the demise of an individual issued by local self-government bodies.",
+      "description_hi": "स्थानीय निकाय द्वारा जारी किया गया आधिकारिक सरकारी प्रमाण पत्र जो किसी व्यक्ति के निधन को प्रमाणित करता है।",
+      "aliases": [
+        "death certificate",
+        "death cert",
+        "death",
+        "demise",
+        "cremation",
+        "मृत्यु प्रमाण पत्र",
+        "मृत्यु",
+        "डेथ सर्टिफिकेट",
+        "मृत्यु प्रमाण",
+        "डेथ सर्टिफ़िकेट",
+        "मौत का प्रमाण पत्र",
+        "debt certificate",
+        "depth certificate",
+        "dept certificate",
+        "death"
+      ],
+      "required_documents_en": [
+        "Hospital Death Report (Form 2)",
+        "Cremation or Burial Ground receipt",
+        "Aadhaar Card of the deceased and applicant",
+        "Ration Card copy"
+      ],
+      "required_documents_hi": [
+        "अस्पताल की मृत्यु रिपोर्ट (प्रपत्र 2)",
+        "श्मशान या कब्रिस्तान की रसीद",
+        "मृतक और आवेदक का आधार कार्ड",
+        "राशन कार्ड की प्रति"
+      ],
+      "processing_time_days": 7,
+      "official_portal": "Sevana Civil Registration Portal (cr.lsgkerala.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "Civil registration is free within 21 days; late registration fees apply as per local body circulars.",
+      "fee_note_hi": "21 दिनों के भीतर पंजीकरण निःशुल्क है; इसके बाद स्थानीय निकाय के अनुसार विलंब शुल्क देय होता है।"
+    },
+    {
+      "service_id": "birth_certificate",
+      "name_en": "Birth Certificate",
+      "name_hi": "जन्म प्रमाण पत्र",
+      "category_en": "Civil Registration & Vital Statistics",
+      "category_hi": "नागरिक पंजीकरण एवं जीवन सांख्यिकी",
+      "description_en": "Official document certifying the birth of a child, required for school admission, passport, and Aadhaar.",
+      "description_hi": "बच्चे के जन्म को प्रमाणित करने वाला आधिकारिक सरकारी दस्तावेज, जो स्कूल प्रवेश, पासपोर्ट और आधार के लिए आवश्यक है।",
+      "aliases": [
+        "birth certificate",
+        "birth cert",
+        "birth",
+        "child birth",
+        "जन्म प्रमाण पत्र",
+        "जन्म",
+        "बर्थ सर्टिफिकेट",
+        "जन्म प्रमाण",
+        "बर्थ सर्टिफ़िकेट",
+        "पैदाइश प्रमाण पत्र"
+      ],
+      "required_documents_en": [
+        "Hospital Discharge Summary or Form 1",
+        "Aadhaar Card of both parents",
+        "Parents Marriage Certificate"
+      ],
+      "required_documents_hi": [
+        "अस्पताल का डिस्चार्ज सारांश या प्रपत्र 1",
+        "माता-पिता दोनों का आधार कार्ड",
+        "माता-पिता का विवाह प्रमाण पत्र"
+      ],
+      "processing_time_days": 5,
+      "official_portal": "Sevana Civil Registration Portal (cr.lsgkerala.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "Civil registration is free within 21 days of birth; late search and issuance charges apply thereafter.",
+      "fee_note_hi": "जन्म के 21 दिनों के भीतर पंजीकरण निःशुल्क है; इसके बाद नियमानुसार शुल्क लगता है।"
+    },
+    {
+      "service_id": "residence_certificate",
+      "name_en": "Residence Certificate (Nativity / Domicile)",
+      "name_hi": "निवास प्रमाण पत्र (डोमिसाइल)",
+      "category_en": "Revenue & Welfare",
+      "category_hi": "राजस्व एवं कल्याण",
+      "description_en": "Official certificate proving continuous residence of a citizen at a specific address in the state.",
+      "description_hi": "राज्य में किसी विशिष्ट पते पर नागरिक के निवास को प्रमाणित करने वाला आधिकारिक सरकारी प्रमाण पत्र।",
+      "aliases": [
+        "residence certificate",
+        "domicile certificate",
+        "nativity certificate",
+        "domicile",
+        "residence",
+        "निवास प्रमाण पत्र",
+        "निवास",
+        "डोमिसाइल सर्टिफिकेट",
+        "रेजिडेंस सर्टिफिकेट",
+        "मूल निवास प्रमाण पत्र"
+      ],
+      "required_documents_en": [
+        "Aadhaar Card",
+        "Ration Card copy",
+        "Electricity bill or water bill showing address",
+        "Land tax receipt or rent agreement"
+      ],
+      "required_documents_hi": [
+        "आधार कार्ड",
+        "राशन कार्ड की प्रति",
+        "पते के प्रमाण हेतु बिजली या पानी का बिल",
+        "भूमि कर रसीद या किराया समझौता"
+      ],
+      "processing_time_days": 5,
+      "official_portal": "e-District Portal (edistrict.kerala.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "Statutory e-District service charges apply as per government gazette.",
+      "fee_note_hi": "सरकारी गजट के अनुसार मानक ई-डिस्ट्रिक्ट सेवा शुल्क लागू होता है।"
+    },
+    {
+      "service_id": "marriage_certificate",
+      "name_en": "Marriage Certificate",
+      "name_hi": "विवाह प्रमाण पत्र",
+      "category_en": "Civil Registration & Legal",
+      "category_hi": "नागरिक पंजीकरण एवं कानूनी",
+      "description_en": "Legal registration of marriage under the Common Marriage Rules or Special Marriage Act.",
+      "description_hi": "सामान्य विवाह नियम या विशेष विवाह अधिनियम के तहत विवाह का कानूनी पंजीकरण।",
+      "aliases": [
+        "marriage certificate",
+        "marriage registration",
+        "marriage",
+        "wedding",
+        "विवाह प्रमाण पत्र",
+        "विवाह",
+        "मैरिज सर्टिफिकेट",
+        "शादी का प्रमाण पत्र",
+        "विवाह पंजीकरण"
+      ],
+      "required_documents_en": [
+        "Marriage invitation card or religious place certificate",
+        "Age proof of bride and groom (SSLC or Birth Certificate)",
+        "Aadhaar Card of bride, groom, and three witnesses",
+        "Joint photograph of husband and wife"
+      ],
+      "required_documents_hi": [
+        "विवाह निमंत्रण पत्र या धार्मिक संस्थान का प्रमाण पत्र",
+        "वर और वधु का आयु प्रमाण (एसएसएलसी या जन्म प्रमाण पत्र)",
+        "वर, वधु और तीन गवाहों का आधार कार्ड",
+        "पति-पत्नी की संयुक्त फोटो"
+      ],
+      "processing_time_days": 7,
+      "official_portal": "Sevana Civil Registration Portal",
+      "fee_inr": null,
+      "fee_note_en": "Statutory marriage registration fees vary if registered within or after 45 days of marriage.",
+      "fee_note_hi": "विवाह के 45 दिनों के भीतर या बाद में पंजीकरण के आधार पर शुल्क निर्धारित होता है।"
+    },
+    {
+      "service_id": "voter_id_service",
+      "name_en": "Voter ID Card (EPIC)",
+      "name_hi": "मतदाता पहचान पत्र (वोटर आईडी)",
+      "category_en": "Election & Democratic Rights",
+      "category_hi": "चुनाव एवं लोकतांत्रिक अधिकार",
+      "description_en": "Electoral photo identity card issued by the Election Commission of India for voting and universal identity.",
+      "description_hi": "भारत निर्वाचन आयोग द्वारा मतदान और पहचान के लिए जारी किया जाने वाला मतदाता फोटो पहचान पत्र।",
+      "aliases": [
+        "voter id",
+        "voter card",
+        "epic",
+        "election card",
+        "nvsp",
+        "election",
+        "मतदाता पहचान पत्र",
+        "वोटर आईडी",
+        "वोटर कार्ड",
+        "पहचान पत्र",
+        "वोटर कार्ड आवेदन"
+      ],
+      "required_documents_en": [
+        "Proof of Age (Birth Certificate, SSLC Book, or PAN Card)",
+        "Proof of Ordinary Residence (Aadhaar Card, Passport, or Utility Bill)",
+        "Passport size photograph",
+        "Form 6 application"
+      ],
+      "required_documents_hi": [
+        "आयु प्रमाण पत्र (जन्म प्रमाण पत्र या 10वीं मार्कशीट)",
+        "निवास प्रमाण (आधार कार्ड या बिजली बिल)",
+        "पासपोर्ट आकार का फोटो",
+        "प्रपत्र 6 आवेदन"
+      ],
+      "processing_time_days": 15,
+      "official_portal": "Voters Service Portal (voters.eci.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "New voter registration and Form 6 submission is completely free of charge.",
+      "fee_note_hi": "नया मतदाता पंजीकरण और फॉर्म 6 भरना पूरी तरह से निःशुल्क है।"
+    },
+    {
+      "service_id": "pan_card_new",
+      "name_en": "New PAN Card (Form 49A)",
+      "name_hi": "नया पैन कार्ड (फॉर्म 49ए)",
+      "category_en": "Tax & Financial Identity",
+      "category_hi": "कर एवं वित्तीय पहचान",
+      "description_en": "Application for permanent 10-character alphanumeric tax identifier for financial and banking transactions.",
+      "description_hi": "बैंकिंग और वित्तीय लेनदेन के लिए 10-अंकीय स्थायी खाता संख्या (पैन कार्ड) हेतु नया आवेदन।",
+      "aliases": [
+        "pan card",
+        "new pan card",
+        "apply pan card",
+        "apply pan",
+        "pan card application",
+        "pan",
+        "पैन कार्ड",
+        "नया पैन कार्ड",
+        "पैन कार्ड बनवाना",
+        "पैन कार्ड आवेदन",
+        "पैन",
+        "pan documents"
+      ],
+      "required_documents_en": [
+        "Proof of Identity (Aadhaar Card, Voter ID, or Passport)",
+        "Proof of Address (Electricity bill, Bank passbook, or Aadhaar)",
+        "Proof of Date of Birth (Birth certificate or Matriculation marksheet)",
+        "Two recent passport-size color photographs"
+      ],
+      "required_documents_hi": [
+        "पहचान का प्रमाण (आधार कार्ड, वोटर कार्ड, या पासपोर्ट)",
+        "पते का प्रमाण (बिजली बिल, बैंक पासबुक, या आधार कार्ड)",
+        "जन्म तिथि का प्रमाण (जन्म प्रमाण पत्र या 10वीं की मार्कशीट)",
+        "दो पासपोर्ट साइज रंगीन फोटो"
+      ],
+      "processing_time_days": 15,
+      "official_portal": "NSDL / UTIITSL Portal (tin-nsdl.com / pan.utiitsl.com)",
+      "fee_inr": null,
+      "fee_note_en": "Standard statutory physical card processing fee applies; confirm exact charge at the counter.",
+      "fee_note_hi": "मानक सरकारी पैन कार्ड शुल्क लागू होता है; सटीक राशि की पुष्टि काउंटर पर करें।"
+    },
+    {
+      "service_id": "pan_aadhaar_link",
+      "name_en": "PAN-Aadhaar Linking",
+      "name_hi": "पैन कार्ड को आधार से लिंक करना",
+      "category_en": "Tax & Financial Identity",
+      "category_hi": "कर एवं वित्तीय पहचान",
+      "description_en": "Mandatory linkage of PAN with Aadhaar card to keep PAN operational under Income Tax Act.",
+      "description_hi": "आयकर अधिनियम के तहत पैन को सक्रिय रखने के लिए आधार कार्ड से अनिवार्य लिंकिंग।",
+      "aliases": [
+        "pan aadhaar link",
+        "link pan to aadhaar",
+        "link aadhaar to pan",
+        "pan aadhar",
+        "पैन आधार लिंक",
+        "पैन को आधार से जोड़ना",
+        "आधार पैन लिंक",
+        "पैन आधार जोड़ना"
+      ],
+      "required_documents_en": [
+        "Active 10-digit PAN Card number",
+        "12-digit Aadhaar Card number",
+        "Active mobile number linked with Aadhaar for OTP"
+      ],
+      "required_documents_hi": [
+        "सक्रिय 10-अंकीय पैन कार्ड नंबर",
+        "12-अंकीय आधार कार्ड नंबर",
+        "ओटीपी सत्यापन के लिए आधार से जुड़ा सक्रिय मोबाइल नंबर"
+      ],
+      "processing_time_days": 2,
+      "official_portal": "Income Tax e-Filing Portal (incometax.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "Statutory late fee may apply per Income Tax Department guidelines; check portal for current notification.",
+      "fee_note_hi": "आयकर विभाग के दिशानिर्देशों के अनुसार विलंब शुल्क लागू हो सकता है; आधिकारिक पोर्टल पर जाँच करें।"
+    },
+    {
+      "service_id": "passport_seva",
+      "name_en": "Fresh Indian Passport Application",
+      "name_hi": "नया भारतीय पासपोर्ट आवेदन",
+      "category_en": "Travel & Consular",
+      "category_hi": "यात्रा एवं कांसुलर सेवाएं",
+      "description_en": "Application for official Indian citizen travel passport issued by Ministry of External Affairs.",
+      "description_hi": "विदेश मंत्रालय द्वारा भारतीय नागरिकों को विदेश यात्रा के लिए जारी किया जाने वाला आधिकारिक पासपोर्ट।",
+      "aliases": [
+        "passport",
+        "new passport",
+        "apply passport",
+        "passport seva",
+        "indian passport",
+        "पासपोर्ट",
+        "नया पासपोर्ट",
+        "पासपोर्ट सेवा",
+        "पासपोर्ट बनवाना",
+        "पासपोर्ट आवेदन"
+      ],
+      "required_documents_en": [
+        "Proof of Date of Birth (Birth Certificate, Transfer/School Leaving Certificate)",
+        "Proof of Present Address (Aadhaar, Electricity Bill, Water Bill, or Bank Passbook)",
+        "Proof of Identity with photo (Aadhaar, Voter ID, PAN Card)"
+      ],
+      "required_documents_hi": [
+        "जन्म तिथि का प्रमाण (जन्म प्रमाण पत्र या स्कूल छोड़ने का प्रमाण पत्र)",
+        "वर्तमान पते का प्रमाण (आधार कार्ड, बिजली बिल, या बैंक पासबुक)",
+        "फोटोयुक्त पहचान प्रमाण (आधार कार्ड, वोटर कार्ड, या पैन कार्ड)"
+      ],
+      "processing_time_days": 30,
+      "official_portal": "Passport Seva Portal (passportindia.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "Normal passport application statutory fee is payable online at time of appointment slot booking.",
+      "fee_note_hi": "सामान्य पासपोर्ट सरकारी शुल्क अपॉइंटमेंट स्लॉट बुक करते समय ऑनलाइन देय होता है।"
+    },
+    {
+      "service_id": "non_creamy_layer",
+      "name_en": "Non-Creamy Layer (NCL) Certificate",
+      "name_hi": "नॉन क्रीमी लेयर (NCL) प्रमाण पत्र",
+      "category_en": "Revenue & Welfare",
+      "category_hi": "राजस्व एवं कल्याण",
+      "description_en": "Certificate verifying that an OBC candidate's gross annual family income is within government limits for reservation.",
+      "description_hi": "ओबीसी वर्ग के उम्मीदवारों के लिए पारिवारिक वार्षिक आय सरकारी सीमा के भीतर होने का आधिकारिक प्रमाण पत्र।",
+      "aliases": [
+        "non creamy layer",
+        "ncl certificate",
+        "obc ncl",
+        "ncl",
+        "non creamy",
+        "नॉन क्रीमी लेयर",
+        "एनसीएल प्रमाण पत्र",
+        "ओबीसी एनसीएल",
+        "नॉन क्रीमी लेयर सर्टिफिकेट"
+      ],
+      "required_documents_en": [
+        "Caste Certificate copy",
+        "Salary Certificate or 3-year Income Tax Returns / Income Certificate",
+        "Ration Card and Aadhaar Card copy",
+        "Self-declaration affidavit"
+      ],
+      "required_documents_hi": [
+        "जाति प्रमाण पत्र की प्रति",
+        "वेतन प्रमाण पत्र या 3 वर्षों का आय प्रमाण पत्र / आईटीआर",
+        "राशन कार्ड और आधार कार्ड की प्रति",
+        "स्व-घोषणा शपथ पत्र"
+      ],
+      "processing_time_days": 10,
+      "official_portal": "e-District State Portal",
+      "fee_inr": null,
+      "fee_note_en": "Nominal state government processing fee payable at the center counter.",
+      "fee_note_hi": "केंद्र काउंटर पर न्यूनतम राज्य सरकारी सेवा शुल्क देय होता है।"
+    },
+    {
+      "service_id": "ews_certificate",
+      "name_en": "EWS (Economically Weaker Section) Certificate",
+      "name_hi": "ईडब्ल्यूएस (आर्थिक रूप से कमजोर वर्ग) प्रमाण पत्र",
+      "category_en": "Revenue & Welfare",
+      "category_hi": "राजस्व एवं कल्याण",
+      "description_en": "Income and asset certificate for general category citizens with family income under ₹8 lakh for 10% quota.",
+      "description_hi": "10% आरक्षण लाभ के लिए सामान्य वर्ग के पात्र परिवारों को जारी किया जाने वाला आय एवं संपत्ति प्रमाण पत्र।",
+      "aliases": [
+        "ews certificate",
+        "ews",
+        "economically weaker section",
+        "ews quota",
+        "ईडब्ल्यूएस",
+        "ईडब्ल्यूएस प्रमाण पत्र",
+        "ईडब्ल्यूएस सर्टिफिकेट",
+        "आर्थिक रूप से कमजोर वर्ग"
+      ],
+      "required_documents_en": [
+        "Income Certificate proving annual family income below ₹8 Lakh",
+        "Property / Land documents (proving residential flat/plot below ceiling limits)",
+        "Aadhaar Card and Ration Card",
+        "Affidavit declaring total family assets"
+      ],
+      "required_documents_hi": [
+        "पारिवारिक वार्षिक आय 8 लाख से कम दर्शाने वाला आय प्रमाण पत्र",
+        "भूमि/आवासीय संपत्ति से संबंधित दस्तावेज",
+        "आधार कार्ड और राशन कार्ड की प्रति",
+        "पारिवारिक संपत्ति की स्व-घोषणा शपथ पत्र"
+      ],
+      "processing_time_days": 15,
+      "official_portal": "e-District State Portal / Revenue Office",
+      "fee_inr": null,
+      "fee_note_en": "Statutory application fees vary by district revenue notification.",
+      "fee_note_hi": "सरकारी आवेदन शुल्क जिला राजस्व अधिसूचना के अनुसार निर्धारित होता है।"
+    },
+    {
+      "service_id": "driving_license_learner",
+      "name_en": "Learner's Driving License (LLR)",
+      "name_hi": "लर्नर ड्राइविंग लाइसेंस (एलएलआर)",
+      "category_en": "Transport & Motor Vehicles",
+      "category_hi": "परिवहन एवं मोटर वाहन",
+      "description_en": "Provisional permit required before learning to drive and taking the permanent driving test.",
+      "description_hi": "सड़क पर वाहन चलाना सीखने और स्थायी लाइसेंस परीक्षा देने से पूर्व आवश्यक प्राथमिक अनुमति पत्र।",
+      "aliases": [
+        "learners license",
+        "learner license",
+        "llr",
+        "learning license",
+        "learn driving license",
+        "लर्नर लाइसेंस",
+        "लर्निंग लाइसेंस",
+        "कच्चा लाइसेंस",
+        "लर्नर ड्राइविंग लाइसेंस"
+      ],
+      "required_documents_en": [
+        "Age Proof (Birth Certificate, School Marksheet, or Passport)",
+        "Address Proof (Aadhaar Card, Voter ID, or Electricity Bill)",
+        "Medical Certificate Form 1A (if age > 40 or transport vehicle)",
+        "Passport-size photographs"
+      ],
+      "required_documents_hi": [
+        "आयु प्रमाण (जन्म प्रमाण पत्र, 10वीं मार्कशीट, या पासपोर्ट)",
+        "पते का प्रमाण (आधार कार्ड, वोटर कार्ड, या बिजली बिल)",
+        "चिकित्सा प्रमाण पत्र फॉर्म 1ए (यदि आयु 40 वर्ष से अधिक हो)",
+        "पासपोर्ट आकार के फोटो"
+      ],
+      "processing_time_days": 7,
+      "official_portal": "Parivahan Sarathi Portal (sarathi.parivahan.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "Standard RTO test and application fees apply as per Motor Vehicles Rules.",
+      "fee_note_hi": "मोटर वाहन नियमों के अनुसार निर्धारित आरटीओ परीक्षा शुल्क देय होता है।"
+    },
+    {
+      "service_id": "driving_license_permanent",
+      "name_en": "Permanent Driving License",
+      "name_hi": "स्थायी ड्राइविंग लाइसेंस (पक्का लाइसेंस)",
+      "category_en": "Transport & Motor Vehicles",
+      "category_hi": "परिवहन एवं मोटर वाहन",
+      "description_en": "Official smart-card driving license granted after clearing the RTO driving skill test.",
+      "description_hi": "आरटीओ ड्राइविंग कौशल परीक्षा पास करने के बाद जारी किया जाने वाला आधिकारिक ड्राइविंग लाइसेंस।",
+      "aliases": [
+        "permanent driving license",
+        "permanent license",
+        "apply driving license",
+        "driving license",
+        "dl",
+        "पक्का ड्राइविंग लाइसेंस",
+        "ड्राइविंग लाइसेंस बनवाना",
+        "नया ड्राइविंग लाइसेंस",
+        "डीएल"
+      ],
+      "required_documents_en": [
+        "Valid Learner's License (at least 30 days old)",
+        "Form 4 Application for permanent license",
+        "Driving School Certificate (Form 5 for transport vehicles)",
+        "Vehicle registration and valid insurance for taking the driving test"
+      ],
+      "required_documents_hi": [
+        "वैध लर्नर लाइसेंस (कम से कम 30 दिन पुराना)",
+        "फॉर्म 4 स्थायी लाइसेंस आवेदन",
+        "ड्राइविंग स्कूल प्रमाण पत्र (वाणिज्यिक वाहनों के लिए)",
+        "ड्राइविंग टेस्ट के लिए वाहन का वैध आरसी और बीमा"
+      ],
+      "processing_time_days": 15,
+      "official_portal": "Parivahan Sarathi Portal (sarathi.parivahan.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "Statutory smart card and driving test charges apply per state RTO fee schedule.",
+      "fee_note_hi": "राज्य आरटीओ शुल्क अनुसूची के अनुसार स्मार्ट कार्ड एवं ड्राइविंग टेस्ट शुल्क लागू होता है।"
+    },
+    {
+      "service_id": "ration_card_new",
+      "name_en": "New Family Ration Card Application",
+      "name_hi": "नया परिवार राशन कार्ड आवेदन",
+      "category_en": "Civil Supplies & Food",
+      "category_hi": "नागरिक आपूर्ति एवं खाद्य",
+      "description_en": "Issuance of new family ration card (APL/BPL/AAY) for subsidized food grains and civic identity.",
+      "description_hi": "सब्सिडी वाले खाद्यान्न और नागरिक पहचान के लिए नए पारिवारिक राशन कार्ड (एपीएल/बीपीएल) का आवंटन।",
+      "aliases": [
+        "new ration card",
+        "apply ration card",
+        "make ration card",
+        "ration card apply",
+        "नया राशन कार्ड",
+        "राशन कार्ड बनवाना",
+        "राशन कार्ड आवेदन",
+        "नया राशन"
+      ],
+      "required_documents_en": [
+        "Aadhaar cards of all family members",
+        "Surrender certificate or deletion certificate from previous ration card",
+        "Proof of residence (Electricity bill, water bill, or rent agreement)",
+        "Income Certificate or Salary Certificate of head of family",
+        "Passport size photo of head of family"
+      ],
+      "required_documents_hi": [
+        "परिवार के सभी सदस्यों के आधार कार्ड",
+        "पुराने राशन कार्ड से नाम कटने का प्रमाण पत्र (विलोपन प्रमाण पत्र)",
+        "निवास प्रमाण (बिजली बिल, पानी बिल, या किराया अनुबंध)",
+        "परिवार के मुखिया का आय प्रमाण पत्र",
+        "परिवार के मुखिया की पासपोर्ट साइज फोटो"
+      ],
+      "processing_time_days": 30,
+      "official_portal": "State Civil Supplies Portal (NFSA)",
+      "fee_inr": null,
+      "fee_note_en": "Nominal card printing fee payable on card delivery as notified by civil supplies department.",
+      "fee_note_hi": "नागरिक आपूर्ति विभाग द्वारा निर्धारित न्यूनतम कार्ड छपाई शुल्क लागू होता है।"
+    },
+    {
+      "service_id": "ayushman_bharat_card",
+      "name_en": "Ayushman Bharat Golden Card (PM-JAY)",
+      "name_hi": "आयुष्मान भारत गोल्डन कार्ड (पीएम-जय)",
+      "category_en": "Healthcare & Social Security",
+      "category_hi": "स्वास्थ्य एवं सामाजिक सुरक्षा",
+      "description_en": "Card offering up to ₹5 lakh per year per family for cashless secondary and tertiary hospitalization.",
+      "description_hi": "प्रति परिवार प्रति वर्ष 5 लाख रुपये तक के मुफ्त कैशलेस इलाज हेतु जारी होने वाला स्वास्थ्य कार्ड।",
+      "aliases": [
+        "ayushman card",
+        "ayushman bharat",
+        "pmjay card",
+        "golden card",
+        "health card",
+        "आयुष्मान कार्ड",
+        "आयुष्मान भारत",
+        "गोल्डन कार्ड",
+        "पीएमजय कार्ड",
+        "हेल्थ कार्ड"
+      ],
+      "required_documents_en": [
+        "Aadhaar Card with biometric verification or OTP",
+        "Ration Card copy or SECC/PMJAY eligibility family ID",
+        "Active mobile number"
+      ],
+      "required_documents_hi": [
+        "आधार कार्ड (बायोमेट्रिक या ओटीपी सत्यापन हेतु)",
+        "राशन कार्ड या पीएमजय पात्रता सूची परिवार आईडी",
+        "सक्रिय मोबाइल नंबर"
+      ],
+      "processing_time_days": 1,
+      "official_portal": "National Health Authority Portal (beneficiary.nha.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "Ayushman card issuance and download is 100% free of cost at authorized public centers.",
+      "fee_note_hi": "आयुष्मान कार्ड बनवाना और डाउनलोड करना अधिकृत सरकारी केंद्रों पर पूरी तरह से निःशुल्क (फ्री) है।"
+    },
+    {
+      "service_id": "pm_kisan_samman",
+      "name_en": "PM-Kisan Samman Nidhi (e-KYC & Status)",
+      "name_hi": "पीएम किसान सम्मान निधि (ई-केवाईसी एवं स्थिति)",
+      "category_en": "Agriculture & Farmer Welfare",
+      "category_hi": "कृषि एवं किसान कल्याण",
+      "description_en": "Central government direct income support of ₹6,000 per year in three installments for landholding farmers.",
+      "description_hi": "किसान परिवारों को 6,000 रुपये वार्षिक वित्तीय सहायता (तीन किस्तों में) प्रदान करने वाली केंद्र सरकार की योजना।",
+      "aliases": [
+        "pm kisan",
+        "pm kisan ekyc",
+        "kisan samman nidhi",
+        "pm kisan yojana",
+        "kisan kyc",
+        "पीएम किसान",
+        "किसान सम्मान निधि",
+        "पीएम किसान योजना",
+        "किसान ईकेवाईसी",
+        "किसान रजिस्ट्रेशन"
+      ],
+      "required_documents_en": [
+        "Aadhaar Card linked with bank account",
+        "Agricultural Land ownership record / Khatauni / Jamabandi",
+        "Bank passbook with IFSC code",
+        "Mobile number linked with Aadhaar for OTP e-KYC"
+      ],
+      "required_documents_hi": [
+        "बैंक खाते से लिंक आधार कार्ड",
+        "कृषि भूमि का स्वामित्व दस्तावेज (खतौनी / जमाबंदी)",
+        "आईएफएससी कोड युक्त बैंक पासबुक",
+        "ओटीपी सत्यापन के लिए आधार से जुड़ा मोबाइल नंबर"
+      ],
+      "processing_time_days": 15,
+      "official_portal": "PM-Kisan Official Portal (pmkisan.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "Self-registration on official portal is free; nominal service fee at CSC/Akshaya kiosks for assisted biometric e-KYC.",
+      "fee_note_hi": "पोर्टल पर पंजीकरण फ्री है; केंद्र पर बायोमेट्रिक ई-केवाईसी हेतु न्यूनतम सेवा शुल्क लागू होता है।"
+    },
+    {
+      "service_id": "old_age_pension",
+      "name_en": "Old Age Social Security Pension",
+      "name_hi": "वृद्धावस्था सामाजिक सुरक्षा पेंशन योजना",
+      "category_en": "Social Welfare & Pensions",
+      "category_hi": "सामाजिक कल्याण एवं पेंशन",
+      "description_en": "Monthly financial assistance for senior citizens (age 60+) belonging to BPL or low-income households.",
+      "description_hi": "60 वर्ष या अधिक आयु के वरिष्ठ नागरिकों के लिए मासिक वित्तीय सहायता प्रदान करने वाली पेंशन योजना।",
+      "aliases": [
+        "old age pension",
+        "senior citizen pension",
+        "vridha pension",
+        "pension scheme",
+        "apply pension",
+        "वृद्धावस्था पेंशन",
+        "वृद्धा पेंशन",
+        "बुढ़ापा पेंशन",
+        "पेंशन योजना",
+        "पेंशन आवेदन"
+      ],
+      "required_documents_en": [
+        "Age Proof proving age 60+ (Aadhaar Card, Voter ID, or Birth Certificate)",
+        "Income Certificate or BPL Ration Card",
+        "Bank Passbook copy linked to Aadhaar (DBT enabled)",
+        "Passport size photograph"
+      ],
+      "required_documents_hi": [
+        "60 वर्ष या अधिक आयु का प्रमाण (आधार कार्ड, वोटर कार्ड, या जन्म प्रमाण पत्र)",
+        "आय प्रमाण पत्र या बीपीएल राशन कार्ड",
+        "आधार लिंक बैंक पासबुक की प्रति (डीबीटी सक्षम)",
+        "पासपोर्ट साइज फोटो"
+      ],
+      "processing_time_days": 30,
+      "official_portal": "State Social Welfare Department / NSAP Portal (nsap.nic.in)",
+      "fee_inr": null,
+      "fee_note_en": "Application for government pension schemes is free of charge; verify local district desk rules.",
+      "fee_note_hi": "सरकारी पेंशन योजनाओं के लिए आवेदन निःशुल्क है; स्थानीय जिला कार्यालय नियमों की पुष्टि करें।"
+    },
+    {
+      "service_id": "epfo_pf_withdrawal",
+      "name_en": "EPFO Provident Fund (PF) Online Claim",
+      "name_hi": "ईपीएफओ पीएफ ऑनलाइन निकासी क्लेम",
+      "category_en": "Labour & Employment",
+      "category_hi": "श्रम एवं रोजगार",
+      "description_en": "Online claim for full PF withdrawal, pension claim (Form 10C), or non-refundable PF advance.",
+      "description_hi": "कर्मचारी भविष्य निधि (पीएफ) की ऑनलाइन निकासी या अग्रिम राशि निकालने हेतु ऑनलाइन क्लेम।",
+      "aliases": [
+        "pf withdrawal",
+        "epfo claim",
+        "pf advance",
+        "uan pf claim",
+        "pf online",
+        "पीएफ निकासी",
+        "पीएफ निकालना",
+        "ईपीएफओ क्लेम",
+        "पीएफ एडवांस",
+        "पीएफ फॉर्म"
+      ],
+      "required_documents_en": [
+        "Active Universal Account Number (UAN) with password",
+        "Aadhaar linked and verified with UAN",
+        "Bank account linked with UAN and cancelled cheque / bank passbook",
+        "Active mobile number linked with Aadhaar for OTP"
+      ],
+      "required_documents_hi": [
+        "सक्रिय यूएएन (UAN) नंबर और पासवर्ड",
+        "यूएएन से लिंक और सत्यापित आधार कार्ड",
+        "यूएएन से लिंक बैंक खाता और कैंसिल चेक या पासबुक",
+        "ओटीपी सत्यापन के लिए आधार से जुड़ा चालू मोबाइल नंबर"
+      ],
+      "processing_time_days": 10,
+      "official_portal": "EPFO Unified Member Portal (unifiedportal-mem.epfindia.gov.in)",
+      "fee_inr": null,
+      "fee_note_en": "EPFO does not charge any official fee for online PF claim submissions.",
+      "fee_note_hi": "ईपीएफओ ऑनलाइन पीएफ क्लेम जमा करने के लिए कोई आधिकारिक शुल्क नहीं लेता है।"
+    },
+    {
+      "service_id": "electricity_bill_payment",
+      "name_en": "Electricity Bill Payment & Kiosk Collection",
+      "name_hi": "बिजली बिल ऑनलाइन भुगतान",
+      "category_en": "Public Utilities",
+      "category_hi": "सार्वजनिक उपयोगिता सेवाएं",
+      "description_en": "Payment of monthly domestic or commercial power electricity bills via DISCOM portals and BBPS.",
+      "description_hi": "राज्य विद्युत वितरण कंपनी और बीबीपीएस के माध्यम से मासिक बिजली बिल का त्वरित भुगतान।",
+      "aliases": [
+        "electricity bill",
+        "pay electricity bill",
+        "power bill",
+        "bijli bill",
+        "light bill",
+        "बिजली बिल",
+        "बिजली बिल भुगतान",
+        "लाइट बिल",
+        "बिजली का बिल",
+        "बिजली बिल जमा"
+      ],
+      "required_documents_en": [
+        "Electricity Consumer Number / Account ID from previous bill",
+        "Registered mobile number for SMS confirmation",
+        "Payment method (UPI, Debit Card, Net Banking, or Cash at kiosk)"
+      ],
+      "required_documents_hi": [
+        "पिछले बिल से विद्युत उपभोक्ता संख्या (कंज्यूमर नंबर / अकाउंट आईडी)",
+        "एसएमएस पुष्टिकरण के लिए मोबाइल नंबर",
+        "भुगतान साधन (यूपीआई, डेबिट कार्ड, या काउंटर पर नकद)"
+      ],
+      "processing_time_days": 1,
+      "official_portal": "State Electricity Board Portal / Bharat BillPay (BBPS)",
+      "fee_inr": null,
+      "fee_note_en": "Pay exact billed amount; transaction receipt is issued instantly upon payment confirmation.",
+      "fee_note_hi": "केवल वास्तविक बिल राशि का भुगतान करें; रसीद तुरंत प्रदान की जाती है।"
+    }
+  ]
+}
